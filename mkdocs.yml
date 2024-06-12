@@ -14,6 +14,7 @@ nav:
     - 'Roles and User Stories': https://iamkeldev.github.io/draft-opendi-roles-user-stories
     - 'JSON Schema Specification': https://iamkeldev.github.io/draft-opendi-json-schema
   - 'OpenDI Glossary': 'OpenDI Glossary.md'
+  - 'How to Contribute': 'How To Contribute.md'
 
 # Exclude _Role Page Template.md
 exclude_docs: |
@@ -33,6 +34,7 @@ theme:
 
   features:
     - toc.follow
+    - content.action.edit
   
   palette: 
     # Palette toggle for light mode
