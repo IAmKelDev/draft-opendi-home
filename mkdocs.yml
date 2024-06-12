@@ -32,8 +32,8 @@ exclude_docs: |
 theme:
   name: material
 
-  favicon: img/monsteraleaf.png
-  logo: img/monsteraleaf.png
+  favicon: img/opendi-icon-small.png
+  logo: img/opendi-icon.png
 
   features:
     - toc.follow
