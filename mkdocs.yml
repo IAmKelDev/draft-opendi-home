@@ -32,6 +32,9 @@ exclude_docs: |
 theme:
   name: material
 
+  favicon: img/monsteraleaf.png
+  logo: img/monsteraleaf.png
+
   features:
     - toc.follow
     - content.action.edit
