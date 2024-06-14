@@ -1,6 +1,6 @@
 # OpenDI Intro
 
-**NOTE:** The following was pulled from the March 2024 draft of the original User Stories document. It has not been edited since. **We may want to revisit the idea of an OpenDI introduction outside of the context of user stories**, but much of this material should work pretty well for that purpose, at least temporarily.  See it in its original context [here.](./user-stories.md)
+**NOTE:** The following was pulled from the March 2024 draft of the original User Stories document. It has not been edited since. **We may want to revisit the idea of an OpenDI introduction outside of the context of user stories**, but much of this material should work pretty well for that purpose, at least temporarily.
 -Isaac
 
 ## Purpose of OpenDI
