@@ -3,6 +3,7 @@
 site_name: 'OpenDI Home (DRAFT)'
 repo_url: https://github.com/IAmKelDev/draft-opendi-home  #This will be the public repo
 edit_uri: blob/dev/docs                                     #URI Partial, added to repo URL to link to editable version of user's current page
+site_url: https://iamkeldev.github.io/draft-opendi-home/
 
 docs_dir: "docs"  #Local directory for docs .md files
 
@@ -13,38 +14,43 @@ nav:
     - 'Roles and User Stories': https://iamkeldev.github.io/draft-opendi-roles-user-stories
     - 'JSON Schema Specification': https://iamkeldev.github.io/draft-opendi-json-schema
   - 'OpenDI Glossary': 'OpenDI Glossary.md'
+  - 'How to Contribute': 'How To Contribute.md'
 
 # Exclude _Role Page Template.md
 exclude_docs: |
   _*.md
 
-theme:
-  name: mkdocs
-  color_mode: auto
-  user_color_mode_toggle: true
-  navigation_depth: 5
+# theme:
+#   name: mkdocs
+#   color_mode: auto
+#   user_color_mode_toggle: true
+#   navigation_depth: 5
 
 
 # Material is a third-party theme
 # https://squidfunk.github.io/mkdocs-material/
-# theme:
-#   name: material
+theme:
+  name: material
 
-#   features:
-#     - navigation.tabs
-#     - navigation.tabs.sticky
-#     - navigation.sections
-#     - toc.follow
+  favicon: img/opendi-icon-small.png
+  logo: img/opendi-icon.png
+
+  features:
+    - toc.follow
+    - content.action.edit
   
-#   palette: 
-#     # Palette toggle for light mode
-#     - scheme: default
-#       toggle:
-#         icon: material/brightness-7 
-#         name: Switch to dark mode
+  palette: 
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
 
-#     # Palette toggle for dark mode
-#     - scheme: slate
-#       toggle:
-#         icon: material/brightness-4
-#         name: Switch to light mode
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  
+  plugins:
+    - social
