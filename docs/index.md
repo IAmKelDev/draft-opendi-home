@@ -12,4 +12,4 @@ For an overview of the OpenDI project as a whole, see the [OpenDI Intro](./OpenD
 
 ## Contribution
 
-Contribution guide will go here. Maybe!
+For information on how you can contribute to OpenDI, see the [contribution guide](./How%20To%20Contribute.md).
