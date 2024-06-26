@@ -10,11 +10,16 @@ docs_dir: "docs"  #Local directory for docs .md files
 nav:
   - Home: index.md
   - 'Overview': 'OpenDI Intro Material.md'
-  - 'OpenDI Materials':
+  - 'How to Contribute': 'How To Contribute.md'
+  - 'OpenDI Standards':
     - 'Roles and User Stories': https://iamkeldev.github.io/draft-opendi-roles-user-stories
     - 'JSON Schema Specification': https://iamkeldev.github.io/draft-opendi-json-schema
+    - 'API Specification': 'API Specification.md'
+  - 'How to use OpenDI':
+    - 'Asset Guide': './How-to-use-OpenDI/Asset Guide.md'
+    - 'Reference Implementations': './How-to-use-OpenDI/Reference Implementations.md'
+    - 'Gallery': './How-to-use-OpenDI/Gallery.md'
   - 'OpenDI Glossary': 'OpenDI Glossary.md'
-  - 'How to Contribute': 'How To Contribute.md'
 
 # Exclude _Role Page Template.md
 exclude_docs: |
